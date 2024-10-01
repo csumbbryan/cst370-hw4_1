@@ -63,7 +63,11 @@ class Main
 
         //System.out.println("First Approach: ");
         for (int k = 0; k < count; k++) {
-            System.out.print(arr1[k] + " ");
+            if(k == count - 1) {
+                System.out.print(arr1[k]);
+            } else {
+                System.out.print(arr1[k] + " ");
+            }
         }
 
         //Second Approach: Use i and j with i and j pointing to the first number.
