@@ -9,9 +9,10 @@
 
 // Finish the head comment with Abstract, Name, and Date.
 /*
- * Abstract: Describe the main ideas of the program.
- * Name: Write your name
- * Date: MM/DD/YYYY
+ * Abstract: The program ensures negative numbers always precede positive numbers in an array. Two approaches are used
+ * to sort the array, with the first having comparison done outside in, and the second using a sequential iterative approach.
+ * Name: Bryan Zanoli
+ * Date: 10/01/2024
  */
 
 import java.util.Scanner;
