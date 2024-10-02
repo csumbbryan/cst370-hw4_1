@@ -85,7 +85,7 @@ class Main
                 j++;
                 continue;
             }
-            if (i == j && arr2[i] > 0) {
+            if (i == j && arr2[i] >= 0) {
                 j++;
                 continue;
             }
@@ -93,7 +93,7 @@ class Main
                 j++;
                 continue;
             }
-            if (arr2[i] > 0 && arr2[j] < 0) {
+            if (arr2[i] >= 0 && arr2[j] < 0) {
                 int temp = arr2[i];
                 arr2[i] = arr2[j];
                 arr2[j] = temp;
